@@ -1,0 +1,57 @@
+.calendar a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 3px;
+  color: black;
+}
+.calendar-table tbody td a:hover,
+.calendar-table tbody td a.prev-day:hover,
+.calendar-table tbody td a.next-day:hover {
+  background: #f07300;
+}
+.calendar a:active {
+  opacity: .75;
+}
+.calendar-table {
+  float: left;
+  font-size: 1em;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px #40ff00;
+  border-bottom: 1px solid #00A300;
+}
+.calendar-table tbody td {
+  background: -webkit-linear-gradient(#009900, #006600);
+  background: -moz-linear-gradient(#76aaef, #0085CC);
+  background: -ms-linear-gradient(#76aaef, #0085CC);
+  background: -o-linear-gradient(#76aaef, #0085CC);
+  padding: 0;
+  border-radius: 3px;
+}
+.calendar-table tbody td a {
+  color: white;
+}
+.calendar-table tbody td a.prev-day,
+.calendar-table tbody td a.next-day {
+  background: -webkit-linear-gradient(#FFFFFF, #dcffdc);
+  background: -moz-linear-gradient(#76aaef, #0085CC);
+  background: -ms-linear-gradient(#76aaef, #0085CC);
+  background: -o-linear-gradient(#76aaef, #0085CC);
+  color: #bfbfbf;
+}
+.calendar-table tbody td a {
+  color: white;
+}
+
+.calendar-table tbody td.selected {
+  background: none;
+}
+.calendar-table .selected a {
+  /* TODO: remove when rework(1) fixes gradients */
+  background: -webkit-linear-gradient(#ffb647, #FF6600);
+  background: -moz-linear-gradient(#76aaef, #0085CC);
+  background: -ms-linear-gradient(#76aaef, #0085CC);
+  background: -o-linear-gradient(#76aaef, #0085CC);
+  box-shadow: inset 0 1px #FFDAC2;
+  color: black;
+}

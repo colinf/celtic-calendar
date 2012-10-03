@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Calendar</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="build/build.css" type="text/css">
+    <style>
+      body {
+        font: 14px "Helvetica Neue", Helvetica, Arial;
+        padding: 80px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Celtic calendar</h1>
+    <script src="build/build.js"></script>
+    <script>
+      var Calendar = require('component-calendar');
+      var cal = new Calendar;
+      cal.el.appendTo('body');
+    </script>
+  </body>
+</html>

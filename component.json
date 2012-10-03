@@ -1,0 +1,14 @@
+{
+  "name": "celtic-calendar",
+  "repo": "component/celtic-calendar",
+  "description": "Celtic calendar theme",
+  "version": "0.0.1",
+  "keywords": ["celtic", "theme", "calendar"],
+  "dependencies": {},
+  "development": {
+    "component/calendar": "*"
+  },
+  "styles": [
+    "style.css"
+  ]
+}
