@@ -13,4 +13,4 @@
 
 # License
 
-  MIT (see the file LICENSE.txt included in this distribution for further details)
+  MIT (see the file License.txt included in this distribution for further details)
