@@ -22,9 +22,9 @@
 }
 .calendar-table tbody td {
   background: -webkit-linear-gradient(#009900, #006600);
-  background: -moz-linear-gradient(#76aaef, #0085CC);
-  background: -ms-linear-gradient(#76aaef, #0085CC);
-  background: -o-linear-gradient(#76aaef, #0085CC);
+  background: -moz-linear-gradient(#009900, #006600);
+  background: -ms-linear-gradient(#009900, #006600);
+  background: -o-linear-gradient(#009900, #006600);
   padding: 0;
   border-radius: 3px;
 }
@@ -34,9 +34,9 @@
 .calendar-table tbody td a.prev-day,
 .calendar-table tbody td a.next-day {
   background: -webkit-linear-gradient(#FFFFFF, #dcffdc);
-  background: -moz-linear-gradient(#76aaef, #0085CC);
-  background: -ms-linear-gradient(#76aaef, #0085CC);
-  background: -o-linear-gradient(#76aaef, #0085CC);
+  background: -moz-linear-gradient(#FFFFFF, #dcffdc);
+  background: -ms-linear-gradient(#FFFFFF, #dcffdc);
+  background: -o-linear-gradient(#FFFFFF, #dcffdc);
   color: #bfbfbf;
 }
 .calendar-table tbody td a {
@@ -49,9 +49,9 @@
 .calendar-table .selected a {
   /* TODO: remove when rework(1) fixes gradients */
   background: -webkit-linear-gradient(#ffb647, #FF6600);
-  background: -moz-linear-gradient(#76aaef, #0085CC);
-  background: -ms-linear-gradient(#76aaef, #0085CC);
-  background: -o-linear-gradient(#76aaef, #0085CC);
+  background: -moz-linear-gradient(#ffb647, #FF6600);
+  background: -ms-linear-gradient(#ffb647, #FF6600);
+  background: -o-linear-gradient(#ffb647, #FF6600);
   box-shadow: inset 0 1px #FFDAC2;
   color: black;
 }
