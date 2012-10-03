@@ -9,7 +9,7 @@
 
 ## Installation
 
-    $ component install component/celtic-calendar
+    $ component install colinf/celtic-calendar
 
 # License
 
