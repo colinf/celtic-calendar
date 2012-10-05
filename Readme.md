@@ -5,7 +5,7 @@
 
   This is a theme for the [calendar component](http://cl.ly/2M0i270T2Q1m).
 
-  ![](http://f.cl.ly/items/1C3f440N0M3T1J3j2K2n/Screen%20Shot%202012-10-03%20at%2013.28.27.png)
+  ![](http://f.cl.ly/items/3F1J3v1p0N0r2l3z3a07/Image%202012.10.05%2012:42:11.png)
 
 ## Installation
 
