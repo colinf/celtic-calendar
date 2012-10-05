@@ -1,8 +1,7 @@
 .calendar a {
   display: block;
-  padding: 5px;
+  padding: 2px 5px;
   text-decoration: none;
-  border-radius: 3px;
   color: black;
 }
 .calendar-table tbody td a:hover,
@@ -13,20 +12,23 @@
 .calendar a:active {
   opacity: .75;
 }
-.calendar-table {
+table.calendar-table {
   float: left;
   font-size: 1em;
   border-radius: 5px;
   box-shadow: 0 1px 2px #006600;
   border-bottom: 1px solid #009600;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 .calendar-table tbody td {
+  padding: 3px 0;
+}
+.calendar-table tbody td a {
   background: -webkit-linear-gradient(#009900, #006600);
   background: -moz-linear-gradient(#009900, #006600);
   background: -ms-linear-gradient(#009900, #006600);
   background: -o-linear-gradient(#009900, #006600);
-  padding: 0;
-  border-radius: 3px;
 }
 .calendar-table tbody td a {
   color: white;
